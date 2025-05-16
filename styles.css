@@ -315,10 +315,10 @@ label {
 }
 
 .form-section {
-  max-width: 900px;
+  max-width: 1400px;
   margin: 40px auto;
   padding: 20px;
-  background: #f8f9fa;
+  background: lightcyan;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -491,6 +491,14 @@ textarea:focus {
 }
 
 /* Event Section */
+.event-section {
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: orange;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
 .event-items {
   display: flex;
   flex-wrap: wrap;
@@ -518,7 +526,8 @@ textarea:focus {
 
 /* Review Section */
 .review-section {
-  background: white;
+  max-width: 1400px;
+  background: linen;
   padding: 1rem;
   border-radius: 10px;
   margin-top: 2rem;
